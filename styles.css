@@ -1,17 +1,20 @@
 body {
     display: flex;
     font-family: Roboto;
-    background-color: #1f2937;
-    color: #f9faf8;
     flex-direction: column;
-    padding-left: 128px;
-    padding-right: 128px;
+    margin: 0;
 }
 
+/* THIS IS THE HEADER */
 .header-container {
+    padding-left: 150px;
+    padding-right: 150px;
+
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    background-color: #1f2937;
+    padding-bottom: 24px;
 
 }
 
@@ -25,48 +28,87 @@ body {
 .link-container {
     display: flex;
     justify-content: space-around;
-}
-
-.link-container p {
-    padding: 10px;
+    gap: 12px;
     font-size: 18px;
     color: #e5e7eb;
 }
+/* THIS IS THE HEADER */
 
+/*********************************************/
 .sign-up-container {
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 24px;
+    padding-bottom: 48px;
+    background-color: #1f2937;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 25px 0px 25px 0px;
-
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 42px;
 }
 
 .sign-up-left {
-    outline: auto;
-    margin-right: 600px;
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sign-up-left h1 {
+    font: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+.sign-up-left p {
+    font: 18px;
+    color: #E5E7EB;
+
 }
 
 .sign-up-right {
-    outline: auto;
-    display: flex;
-    justify-content: flex-end;
+    display: flex
 }
 
 #box {
     background-color: lightblue;
     border: 2px solid blue;
-    
 }
 
 .button {
     background-color: #3882F6;
     border: none;
-    color: white;
-
+    color: #E5E7EB;
     text-align: center;
-    text-decoration: none;
-
-    font-size: 16px;
-
+    font-size: 18px;
+    border-radius: 4px;
+    padding: 16px 8px;
+    align-self: flex-start;
   }
+
+#nasa {
+    height: px;
+    max-width:100%;
+    max-height: 100%;
+}
+/*********************************************/
+
+.rand-info {
+    outline: auto;
+    flex-direction: column;
+    padding-top: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.info-boxes {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.info-box {
+    outline: auto;
+}
