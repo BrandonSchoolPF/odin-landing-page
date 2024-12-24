@@ -1,17 +1,15 @@
 body {
     display: flex;
-    outline: auto;
     font-family: Roboto;
     background-color: #1f2937;
     color: #f9faf8;
     flex-direction: column;
-    padding-left: 72px;
-    padding-right: 72px;
+    padding-left: 128px;
+    padding-right: 128px;
 }
 
 .header-container {
     display: flex;
-    outline: auto;
     flex-direction: row;
     justify-content: space-between;
 
@@ -32,6 +30,43 @@ body {
 .link-container p {
     padding: 10px;
     font-size: 18px;
-    font-family: Hero;
     color: #e5e7eb;
 }
+
+.sign-up-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px 0px 25px 0px;
+
+}
+
+.sign-up-left {
+    outline: auto;
+    margin-right: 600px;
+    
+}
+
+.sign-up-right {
+    outline: auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#box {
+    background-color: lightblue;
+    border: 2px solid blue;
+    
+}
+
+.button {
+    background-color: #3882F6;
+    border: none;
+    color: white;
+
+    text-align: center;
+    text-decoration: none;
+
+    font-size: 16px;
+
+  }
