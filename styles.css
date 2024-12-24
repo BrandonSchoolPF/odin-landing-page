@@ -91,8 +91,8 @@ body {
 }
 /*********************************************/
 
-.rand-info {
-    flex-direction: column;
+.rand-title {
+    flex-direction: row;
     padding-top: 24px;
     display: flex;
     justify-content: center;
@@ -103,11 +103,21 @@ body {
     outline: auto;
 }
 
+.rand-info {
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: 18px !important;
+    color: #E5E7EB;
+}
+
 .info-boxes {
     outline: auto;
     display: flex;
-    flex-direction: row;
-    gap: 42px;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 #info-box { 
@@ -116,17 +126,4 @@ body {
     border: 4px solid #3882F6; /* Border style */ 
     background-color: white; /* Background color */ 
     border-radius: 8px;
-}
-
-.text-info-box {
-    outline: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.text-info-box p {
-    outline: auto;
-    font-size: 18px;
-    text-align: center;
 }
