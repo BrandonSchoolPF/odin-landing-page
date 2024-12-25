@@ -128,7 +128,7 @@ body {
 }
 
 #text-under {
-    width: 100px;
+    width: 140px;
     text-align: center;
 }
 
@@ -144,9 +144,9 @@ body {
     font-family: Roboto;
     padding-left: 150px;
     padding-right: 150px;
-    align-content: center;
-    padding-bottom: 24px;
-    padding-top: 24px;
+    padding-bottom: 86px;
+    padding-top: 86px;
+    
 }
 
 #quote-text {
@@ -160,4 +160,21 @@ body {
     margin-top: 0px;
     font-weight: bold;
     font-size:medium;
+}
+
+/****************************************************/
+
+.call-container {
+    padding-top: 84px;
+    padding-bottom: 84px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.blue-box {
+    background-color: #3b82f6;
+    width: auto;
+    height: 125px;
+    border-radius: 8px;
+    display: flex;
 }
